@@ -39,3 +39,9 @@ vars:
   github:
     github_database: FIVETRAN_DATABASE
     github_schema: GITHUB
+    github__using_repo_team: false # by default this is assumed to be true. Set to false if missing TEAM or REPO_TEAM
+    github__using_issue_assignee: false # by default this is assumed to be true
+    github__using_issue_label: false # by default this is assumed to be true
+    github__using_label: false # by default this is assumed to be true
+    github__using_requested_reviewer_history: false # by default this is assumed to be true
+    
